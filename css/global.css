@@ -45,3 +45,21 @@ body {
 .main-content {
   margin: 0 80px;
 }
+
+@media screen and (max-width: 415px){
+  .main-content {margin: 0 20px;
+  }
+    .right {
+    text-align: center;
+    width: 60%;
+    position: center;
+    position: relative;
+    left: 61px;
+    float: none;
+}
+@media screen and (max-width: 415px){
+  #move {
+    float: none;
+    display: inline;
+  }
+}
