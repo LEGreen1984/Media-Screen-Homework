@@ -41,13 +41,26 @@ header, .experience {
     position: relative;
     left: 61px;
     float: none;
+		display:contents;
 }
-#headshot {
-	display: block;
-	text-align: center;
-	margin: 50px auto 0;
-	border: 2px solid #E13A63;
-	position: relative;
-	left: 47px;
+	#headshot {
+		display: block;
+		text-align: center;
+		margin: 50px auto 0;
+		border: 2px solid #E13A63;
+		position: relative;
+		left: 61px;
 }
+	.left #headshot {
+    display: block;
+    text-align: center;
+    margin: 50px auto 0;
+    border: 2px solid #E13A63;
+    position: relative;
+    left: 47px;
+	}
+	.left {display: contents;
+		float: none;
+		text-align: center;
+	}
 }
