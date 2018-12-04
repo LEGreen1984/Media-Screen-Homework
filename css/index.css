@@ -43,13 +43,6 @@ header, .experience {
     float: none;
 		display:contents;
 }
-	#headshot {
-		display: block;
-		text-align: center;
-		margin: 50px auto 0;
-		border: 2px solid #E13A63;
-		position: relative;
-		left: 61px;
 }
 	.left #headshot {
     display: block;
@@ -57,7 +50,7 @@ header, .experience {
     margin: 50px auto 0;
     border: 2px solid #E13A63;
     position: relative;
-    left: 47px;
+    left: 1%;
 	}
 	.left {display: contents;
 		float: none;
